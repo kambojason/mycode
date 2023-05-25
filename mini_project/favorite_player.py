@@ -13,8 +13,8 @@ def main():
 
     # The setup, showing the list and prompting my question
     print("I have a list of my top 10 NBA players of all time.")
-    print("You will have to guess my #1 favroite player.")
-    print("I will give you 3 guess.")
+    print("You will have to guess my #1 favorite player.")
+    print("I will give you 3 guesses.")
     print("My top 10 list is: ")
 
     # Just to cleanly list players
@@ -22,7 +22,7 @@ def main():
         print(player)
 
     # The 3 clues I will be giving
-    clues = ["My first clue is, they are a top 5 scorer of all time", "My second clue is they have won multiple NBA Championships", "My final clue is they have played for 20 NBA seasons"]
+    clues = ["My first clue is they are a top 5 scorer of all time", "My second clue is they have won multiple NBA Championships", "My final clue is they have played for 20 NBA seasons"]
 
     while round < 3:
         print(clues[round])
@@ -30,7 +30,7 @@ def main():
         answer = answer.lower()
 
         if answer == number1:
-            print("Congratulations! You guessed it correctly. LeBron James is my favroite player!")
+            print("Congratulations! You guessed it correctly. LeBron James is my favorite player!")
             break
         else:
             print("Wrong guess. Please try again.")
