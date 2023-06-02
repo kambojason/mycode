@@ -28,8 +28,8 @@ with open("onepiecefruits.txt", "r") as comicfile:
             character_in_show = row[0] 
             logia_characters.append(character_in_show)
 # Will be printing my findindings 
-print(f"Number of devil fruits with Logia class type are, {logia_count}, total") 
-print("The characters with the logia trpe devil fruit are:") 
+print(f"Number of devil fruits with Logia class type are, {logia_count}, total.") 
+print("The characters with the logia type devil fruit are:") 
 # List the characters in a clean manner
 for character_in_show in logia_characters:
     print(character_in_show)
